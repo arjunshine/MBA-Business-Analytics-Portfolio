@@ -2,6 +2,8 @@
 
 Trimester 5 capstone project (early 2020) — an end-to-end demand forecasting system for a food-service business, deployed as a Flask web application. Combines several techniques in one working pipeline rather than isolated exercises.
 
+The order data used throughout this project was collected from [Mecaf Family Restaurant, BTM, Bangalore](https://www.zomato.com/bangalore/mecaf-family-restaurant-btm-bangalore/photos).
+
 ## What it does
 
 1. **Data aggregation** — `EXL_agg.py`, `CLEANING.py`, `d_stats.py` aggregate raw order data into monthly (`CAP_MONTHwise/`) and total (`CAP_AGGRG/`) summaries.
