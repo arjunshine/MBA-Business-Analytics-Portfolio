@@ -1,8 +1,8 @@
 # Placements Analysis
 
-A group project (April 2020) — a Flask web app analyzing MBA placement outcomes broken down by specialization (`MASTER DATA/`: Business Analytics, Finance, Human Resources, Lean Operations & Systems, Marketing).
+A solo project (April 2020) — a Flask web app analyzing MBA placement outcomes broken down by specialization (`MASTER DATA/`: Business Analytics, Finance, Human Resources, Lean Operations & Systems, Marketing).
 
-- **`app_1.py`** — Flask entry point; co-authored with a teammate (Shylaja S).
+- **`app_1.py`** — Flask entry point. A friend's name appears in the file's author docstring, left over from test data used while building this — not an actual collaborator; this was built solo.
 - **`oper.py`** — core data-processing logic: reads the per-specialization master data, splits by campus, and produces summary views.
 - **`templates/`, `static/`** — the web UI.
 
