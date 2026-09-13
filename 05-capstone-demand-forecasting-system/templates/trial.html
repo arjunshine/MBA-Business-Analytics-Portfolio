@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>DEF API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	</h1>Choose from the following service:</h1>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('option')}}"method="post">  	
+    	<button type="submit" name="s_b" class="btn btn-primary btn-block btn-large" value="1">1.Layout Analysis</button>
+        <button type="submit" name="s_b" class="btn btn-primary btn-block btn-large" value="2">2.Individual Forecasting</button>
+        <button type="submit" name="s_b" class="btn btn-primary btn-block btn-large" value="3">3.Combined forecasting</button>
+        <button type="submit" name="s_b" class="btn btn-primary btn-block btn-large" value="4">4.Total Order Frequency</button>
+        <button type="submit" name="s_b" class="btn btn-primary btn-block btn-large" value="5">5.Offer Development</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
+
+
